@@ -10,6 +10,7 @@
 <details>
 <summary>What is this?</summary>
 
+- School project made for our Work-Integrated Learning.
 - Project made with Godot, opensource (under GPL-3 license)
 - Game heavily inspired from ZeekersRBLX's [Lethal Company](https://store.steampowered.com/app/1966720/Lethal_Company/)
 - 2D version of Lethal Company, remade in Godot.

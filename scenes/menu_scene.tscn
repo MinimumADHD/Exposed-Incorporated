@@ -1,3 +1,17 @@
-[gd_scene format=3 uid="uid://f6pnx5jmc5s2"]
+[gd_scene load_steps=3 format=3 uid="uid://f6pnx5jmc5s2"]
+
+[ext_resource type="Script" path="res://scripts/menu_scene.cs" id="1_dsn63"]
+[ext_resource type="Texture2D" uid="uid://71cvb65kr2sl" path="res://textures/singlesprites/menu_play_button.png" id="1_tttw0"]
 
 [node name="MenuScene" type="Node2D"]
+script = ExtResource("1_dsn63")
+
+[node name="PlayButton" type="TextureButton" parent="."]
+texture_filter = 1
+offset_left = 542.0
+offset_top = 297.0
+offset_right = 606.0
+offset_bottom = 337.0
+texture_normal = ExtResource("1_tttw0")
+
+[connection signal="pressed" from="PlayButton" to="." method="_on_play_button_pressed"]

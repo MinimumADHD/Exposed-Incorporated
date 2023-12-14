@@ -11,8 +11,8 @@ config_version=5
 [application]
 
 config/name="Exposed Incorporated"
-run/main_scene="res://scenes/menu_scene.tscn"
-config/features=PackedStringArray("4.2", "C#", "Forward Plus")
+run/main_scene="res://scenes/main_menu.tscn"
+config/features=PackedStringArray("4.2", "Forward Plus")
 config/icon="res://icon.svg"
 
 [dotnet]

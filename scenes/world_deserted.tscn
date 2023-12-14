@@ -1,8 +1,3 @@
-[gd_scene load_steps=2 format=3 uid="uid://bad7v1l17uguh"]
-
-[ext_resource type="PackedScene" uid="uid://ergmms6gtoxp" path="res://scenes/player_character_node.tscn" id="1_08tny"]
+[gd_scene format=3 uid="uid://bad7v1l17uguh"]
 
 [node name="WorldDeserted" type="Node2D"]
-
-[node name="playerCharacterNode" parent="." instance=ExtResource("1_08tny")]
-position = Vector2(243, 188)

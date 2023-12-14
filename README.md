@@ -16,3 +16,5 @@
 - 2D version of Lethal Company, remade in Godot.
 
 </details>
+
+[Personal Notes](PERSONAL_NOTES.md)
